@@ -42,10 +42,3 @@ ul.posts li {
     list-style: none;
 }
 
-.TitleBanner {
-  color: white;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75);
-  background-size: cover;
-  background-position: center;
-  background-image: url(/img/fall.jpg);
-}
