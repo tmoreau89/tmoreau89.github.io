@@ -15,10 +15,10 @@
                 </ul>
             </nav>
 
-            <div class="FeaturedImgBanner" {% if page.featured-img %} style="background-image: url('{{ page.featured-img }}');" {% endif %}>
-                <ul>
-                    <h3>Thierry Moreau</h3>
-                </ul>
+            <div class="FeaturedImgBanner" {% if page.featured-img %} style="background-image: url('{{ page.featured-img }}'); background-size:cover;" {% endif %}>
+                <h2 class="header__container">Thierry Moreau</h2>
+                <h6 class="header__title">Ph.D. Student at the University of Washington</h6>
+                <p class="l-post__meta"> </p>
             </div>
 
             {{ content }}
