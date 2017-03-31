@@ -45,4 +45,5 @@ ul.posts li {
 .TitleBanner {
   background-size: cover;
   background-position: center;
+  background-image: url(/img/fall.jpg);
 }

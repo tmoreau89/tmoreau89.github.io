@@ -15,11 +15,13 @@
                 </ul>
             </nav>
 
-            {{ content }}
-
             <div class="FeaturedImgBanner" {% if page.featured-img %} style="background-image: url('{{ page.featured-img }}');" {% endif %}>
-                <!-- Include your post title, byline, date, and other info inside the header here. -->
+                <ul>
+                    <h3>Thierry Moreau</h3>
+                </ul>
             </div>
+
+            {{ content }}
 
             </div><!-- /.container -->
             <footer>
