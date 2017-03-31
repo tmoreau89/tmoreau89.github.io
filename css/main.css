@@ -42,3 +42,7 @@ ul.posts li {
     list-style: none;
 }
 
+.TitleBanner {
+  background-size: cover;
+  background-position: center;
+}
